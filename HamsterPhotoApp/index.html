@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>HamsterCollection</title>
+</head>
+<body>
+    <main>
+      <h1>HamsterCollection</h1>
+      <p>I give full credit to <a href="https://www.freecodecamp.org">freeCodeCamp</a> for teaching me how to do this.
+      This is basically their CatPhotoApp HTML tutorial but with hamsters.</p>
+      <p>I did follow the original tutorial involving cats though. A key difference is that the form does not submit to anything.</p>
+      <section>
+        <h2>Hamsters</h2>
+        <p>See more <a target="_blank" href="https://stockcake.com/s?q=hamsters">hamsters</a> online.</p>
+        <a href="HamsterPhotos/Hamster.jpg"><img src="HamsterPhotos/Hamster.jpg" alt="A hamster in a shelter."></a>
+      </section>
+      <section>
+        <h2>Hamster Lists</h2>
+        <h3>Foods hamsters like:</h3>
+        <ul>
+          <li>Fruits</li>
+          <li>Vegetables</li>
+          <li>Grains</li>
+        </ul>
+        <figure>
+          <img src="HamsterPhotos/HamsterEatingSeeds.jpg" alt="A hamster eating some seeds.">
+          <figcaption>Hamsters <strong><em>love</em></strong> seeds.</figcaption>  
+        </figure>
+        <h3>Top 3 things hamsters hate:</h3>
+        <ol>
+          <li>Loud sounds</li>
+          <li>Change</li>
+          <li>Large pets</li>
+        </ol>
+        <figure>
+          <img src="/HamsterPhotoApp/HamsterPhotos/HamstersPlaying.jpg" alt="Hamsters playing together.">
+          <figcaption>Hamsters <strong>playing</strong> together.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Hamster Form</h2>
+        <form>
+          <fieldset>
+            <legend>Is your hamster an indoor or outdoor hamster?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your hamster's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+            <input id="cute" type="checkbox" name="personality" value="cute"> <label for="cute">Cute</label>
+            <input id="playful" type="checkbox" name="personality" value="playful"> <label for="playful">Playful</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="hamster photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+    </footer>
+  </body>
+</html>
